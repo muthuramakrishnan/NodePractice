@@ -1,0 +1,15 @@
+r -Open a file for reading
+r+ -> open a file for reading and writting
+rs -> open a file for reading in synchronous mode
+rs+ open a file for reading and writting in synchronous mode
+
+w -> open a file for writting
+wx -> Fails if there already exitis a file
+w+ -> opens a file for both reading and writting
+wx+ -> fails if path exitis
+
+appending
+a -> open a file for appending
+ax -> like a but fails if there exists a path already
+a+ -> reading and appending
+ax+ -> like a+ but fails if there already exists a file

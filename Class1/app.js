@@ -6,6 +6,7 @@ const http = require('http'); //this imports gloabl http module
 //this request listener has 2 arguments.
 //1 is request and the other is response
 const server = http.createServer((req, res) => {
+    console.log("req", req)
     res.setHeader('Content-Type', 'text/html');
     res.write('<html>');
     res.write('<head><title>My first page</title></head>')
